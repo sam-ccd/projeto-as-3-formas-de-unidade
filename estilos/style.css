@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: black;
+}
+
+header {
+    min-height: 100px;
+    max-width: 750px;
+    margin: auto;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+section.introducao {
+    color: black;
+    background-color: white;
+    min-height: 350px;
+    max-width: 750px;
+    margin: auto;
+}
+
+section.introducao h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+section.introducao p {
+    text-align: justify;
+    padding: 20px;
+    text-indent: 20px;
+    
+}
+
+section.texto {
+    color: black;
+    background-color: white;
+    min-height: 350px;
+    max-width: 750px;
+    margin: auto;
+    text-align: justify;
+}
+
+section.texto p {
+    text-indent: 20px;
+    padding: 20px;
+}
+
+section.image {
+    background-color: brown;
+    min-height: 350px;
+    max-width: 750px;
+    margin: auto;
+}
+
+section.image > h2 {
+    text-align: center;
+    padding-top: 22%;
+    padding-bottom: 22%;
+    border: 1px solid blue;
+}
+
+section.image a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}

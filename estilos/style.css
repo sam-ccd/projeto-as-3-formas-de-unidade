@@ -30,6 +30,15 @@ section.introducao {
     margin: auto;
 }
 
+section.introducao li {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+section.introducao div {
+    text-align: center;
+}
+
 section.introducao h2 {
     text-align: center;
     padding-top: 40px;
@@ -40,6 +49,18 @@ section.introducao p {
     padding: 20px;
     text-indent: 20px;
     
+}
+
+section.introducao  iframe {
+    text-align: center;
+    width: 450px;
+    height: 250px;
+}
+
+section.introducao > div#iframe {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 section.texto {

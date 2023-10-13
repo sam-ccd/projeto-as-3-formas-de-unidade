@@ -3,7 +3,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif
 }
 
 html, body {
@@ -34,6 +34,7 @@ section.introducao > article > p {
     padding: 0px 25px 60px 25px;
     font-size: 1.2em;
     line-height: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section.introducao ul {
@@ -67,6 +68,7 @@ section.introducao > p {
     font-weight: bolder;
     padding: 20px 0px 30px 0px ;
     text-align: center;
+    
 }
 
 section.introducao > p > a {
@@ -80,12 +82,15 @@ section.image {
     margin: auto;
     text-align: center;
     padding: 150px 0px 150px 0px;
+    box-shadow: inset 0px 6px 13px rgba(0, 0, 0, 0.450);
+    background: url(../imagens/pexels-pixabay-235985.jpg) no-repeat fixed;
 }
 
 section.image a {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.618);
 }
 
 section.image a:hover {
@@ -101,16 +106,26 @@ section.texto {
     text-align: justify;
 }
 
+section.texto2 {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    text-indent: 5%;
+    text-align: justify;
+}
+
 section.texto p {
     padding: 30px 25px 30px 25px;
     font-size: 1.2em;
     line-height: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-section.texto p#textodort {
+section.texto2 p#textodort {
     padding: 30px 25px 50px 25px;
     font-size: 1.2em;
     line-height: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer p {
@@ -118,12 +133,14 @@ footer p {
     color: white;
     padding: 20px 0px 20px 0px;
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer a {
     text-decoration: none;
     color: white;
     font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer a:hover {

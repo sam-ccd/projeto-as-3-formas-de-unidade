@@ -85,6 +85,12 @@ section.image {
 section.image a {
     text-decoration: none;
     color: white;
+    font-size: 1.5em;
+}
+
+section.image a:hover {
+    color: rgba(255, 255, 255, 0.652);
+    transition-duration: 0.8s;
 }
 
 section.texto {
@@ -118,4 +124,8 @@ footer a {
     text-decoration: none;
     color: white;
     font-weight: 700;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
